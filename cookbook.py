@@ -31,3 +31,5 @@ import sys, importlib
 importlib.reload(sys.modules['foo'])
 from foo import bar
 
+# Convert Jupyter notebook to .py script
+$ jupyter nbconvert --to script notebook.ipynb
