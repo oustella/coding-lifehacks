@@ -21,3 +21,10 @@ conda info --evns # check to see what environments you have
 
 conda activate EnvName # note: if you change environment, you may have to reinstall dependencies
 nano ~/.bash_profile # add default environment by adding the above line
+
+# Install R kernel for jupyter notebook
+# step 1. install R
+# step 2. execute the following commands in Terminal
+$ R  # open up in Terminal. Codes below cannot be executed in R application
+$ install.packages('IRkernel', repos = 'https://cloud.r-project.org/')
+$ IRkernel::installspec()  # let Jupyter know of the R kernel
