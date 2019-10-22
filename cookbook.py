@@ -33,3 +33,6 @@ from foo import bar
 
 # Convert Jupyter notebook to .py script
 $ jupyter nbconvert --to script notebook.ipynb
+$ jupyter nbconvert notebook.ipynb --to pdf
+$ jupyter nbconvert notebook.ipynb --to html --template basic
+
